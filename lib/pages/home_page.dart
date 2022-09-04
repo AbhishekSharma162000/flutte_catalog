@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Catalog App"),
       ),
-      drawer: const Drawer(),
+      //drawer: const Drawer(),
       body: Center(
         child: Text("Welcome to $days days by $name"),
       ),
