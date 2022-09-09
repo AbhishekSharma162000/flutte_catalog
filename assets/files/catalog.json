@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 12 Pro",
+            "desc": "Aple iPhone 12th generator",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://www.reliancedigital.in/medias/Apple-12-Smartphones-491901536-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzUwODd8aW1hZ2UvanBlZ3xpbWFnZXMvaDEyL2g2My85NDA3NzQ2MjQ0NjM4LmpwZ3w0OTc2MTIyMWJlODAwMmE1ZDcyY2VlZGQxZGEwMTIxNTJkZDM2NWUyZjM2OWZlMmNiMTRjN2FkMTE5YWE0ZjVj"
+        },
+        {
+            "id": 2,
+            "name": "Samsung",
+            "desc": "Samusng",
+            "price": 99,
+            "color": "#33505a",
+            "image": "https://www.reliancedigital.in/medias/Apple-12-Smartphones-491901536-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzUwODd8aW1hZ2UvanBlZ3xpbWFnZXMvaDEyL2g2My85NDA3NzQ2MjQ0NjM4LmpwZ3w0OTc2MTIyMWJlODAwMmE1ZDcyY2VlZGQxZGEwMTIxNTJkZDM2NWUyZjM2OWZlMmNiMTRjN2FkMTE5YWE0ZjVj"
+        },
+        {
+            "id": 3,
+            "name": "Nokia",
+            "desc": "Nokia",
+            "price": 991,
+            "color": "#33505a",
+            "image": "https://www.reliancedigital.in/medias/Apple-12-Smartphones-491901536-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzUwODd8aW1hZ2UvanBlZ3xpbWFnZXMvaDEyL2g2My85NDA3NzQ2MjQ0NjM4LmpwZ3w0OTc2MTIyMWJlODAwMmE1ZDcyY2VlZGQxZGEwMTIxNTJkZDM2NWUyZjM2OWZlMmNiMTRjN2FkMTE5YWE0ZjVj"
+        },
+        {
+            "id": 4,
+            "name": "Nokia",
+            "desc": "Nokia",
+            "price": 991,
+            "color": "#33505a",
+            "image": "https://www.reliancedigital.in/medias/Apple-12-Smartphones-491901536-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzUwODd8aW1hZ2UvanBlZ3xpbWFnZXMvaDEyL2g2My85NDA3NzQ2MjQ0NjM4LmpwZ3w0OTc2MTIyMWJlODAwMmE1ZDcyY2VlZGQxZGEwMTIxNTJkZDM2NWUyZjM2OWZlMmNiMTRjN2FkMTE5YWE0ZjVj"
+        },
+        {
+            "id": 5,
+            "name": "Nokia",
+            "desc": "Nokia",
+            "price": 991,
+            "color": "#33505a",
+            "image": "https://www.reliancedigital.in/medias/Apple-12-Smartphones-491901536-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzUwODd8aW1hZ2UvanBlZ3xpbWFnZXMvaDEyL2g2My85NDA3NzQ2MjQ0NjM4LmpwZ3w0OTc2MTIyMWJlODAwMmE1ZDcyY2VlZGQxZGEwMTIxNTJkZDM2NWUyZjM2OWZlMmNiMTRjN2FkMTE5YWE0ZjVj"
+        },
+        {
+            "id": 6,
+            "name": "Nokia",
+            "desc": "Nokia",
+            "price": 991,
+            "color": "#33505a",
+            "image": "https://www.reliancedigital.in/medias/Apple-12-Smartphones-491901536-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzUwODd8aW1hZ2UvanBlZ3xpbWFnZXMvaDEyL2g2My85NDA3NzQ2MjQ0NjM4LmpwZ3w0OTc2MTIyMWJlODAwMmE1ZDcyY2VlZGQxZGEwMTIxNTJkZDM2NWUyZjM2OWZlMmNiMTRjN2FkMTE5YWE0ZjVj"
+        }
+    ]
+}
