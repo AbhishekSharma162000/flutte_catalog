@@ -11,7 +11,7 @@ class ItemWidget extends StatelessWidget {
     return Card(
       child: ListTile(
         onTap: () {
-          print("${item.name} pressed");
+          // print("${item.name} pressed");
         },
         leading: Image.network(item.image),
         title: Text(item.name),
@@ -19,7 +19,8 @@ class ItemWidget extends StatelessWidget {
         trailing: Text(
           "\$${item.price}",
           textScaleFactor: 1.5,
-          style: TextStyle(color: Colors.indigo, fontWeight: FontWeight.bold),
+          style: const TextStyle(
+              color: Colors.indigo, fontWeight: FontWeight.bold),
         ),
       ),
     );

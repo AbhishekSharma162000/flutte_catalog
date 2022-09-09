@@ -19,7 +19,7 @@ class _LoginPageState extends State<LoginPage> {
       setState(() {
         changeButton = true;
       });
-      await Future.delayed(Duration(seconds: 1));
+      await Future.delayed(const Duration(seconds: 1));
       await Navigator.pushNamed(context, MyRoutes.homeRoute);
       setState(() {
         changeButton = false;
@@ -48,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 Text(
                   "Welcome $name",
-                  style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+                  style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(
                   height: 20,
@@ -70,7 +70,7 @@ class _LoginPageState extends State<LoginPage> {
                             name = value;
                           });
                         },
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                             hintText: "Enter username", labelText: "Username"),
                       ),
                       TextFormField(
@@ -83,7 +83,7 @@ class _LoginPageState extends State<LoginPage> {
                           return null;
                         },
                         obscureText: true,
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                             hintText: "Enter password", labelText: "Password"),
                       ),
                       const SizedBox(
@@ -96,16 +96,16 @@ class _LoginPageState extends State<LoginPage> {
                         child: InkWell(
                           onTap: () => moveToHome(context),
                           child: AnimatedContainer(
-                            duration: Duration(seconds: 1),
+                            duration: const Duration(seconds: 1),
                             width: changeButton ? 50 : 150,
                             height: 50,
                             alignment: Alignment.center,
                             child: changeButton
-                                ? Icon(
+                                ? const Icon(
                                     Icons.done,
                                     color: Colors.white,
                                   )
-                                : Text(
+                                : const Text(
                                     "Login",
                                     style: TextStyle(
                                       color: Colors.white,
