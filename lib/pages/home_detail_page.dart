@@ -27,12 +27,14 @@ class HomeDetailPage extends StatelessWidget {
                         shape:
                             MaterialStateProperty.all(const StadiumBorder())),
                     onPressed: () {},
-                    child: "Buy".text.make())
+                    child: "Add to cart".text.make())
                 .wh(100, 50)
           ],
         ).p32(),
       ),
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       body: SafeArea(
         bottom: false,
         child: Column(
@@ -56,6 +58,12 @@ class HomeDetailPage extends StatelessWidget {
                         .make(),
                     catalog.desc.text.textStyle(context.captionStyle).xl.make(),
                     10.heightBox,
+                    "Tempor et nonumy diam sea clita justo ut, vero et rebum sed sit rebum sanctus diam, tempor duo diam diam takimata. Eirmod sea rebum magna gubergren sadipscing at et aliquyam. Sit diam sed vero lorem diam magna dolores voluptua. Ut sit stet at amet sed et dolore takimata, sea et."
+                        .text
+                        .sm
+                        .textStyle(context.captionStyle)
+                        .make()
+                        .p16()
                   ],
                 ).py64(),
               ),
